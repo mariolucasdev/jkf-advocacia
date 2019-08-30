@@ -20,7 +20,12 @@ class Template {
             $this->CI->load->view($this->path_template.'/header', $data);
         endif;
 
-        // caminho padrão de templates Ex: 'templates/header'
+        // caminho padrão de templates Ex: 'templates/navbar'
+        if(file_exists(APPPATH.'views/'.$this->path_template.'/navbar.php')):
+            $this->CI->load->view($this->path_template.'/navbar');
+        endif;
+
+        // caminho padrão de templates Ex: 'templates/aside'
         if(file_exists(APPPATH.'views/'.$this->path_template.'/aside.php')):
             $this->CI->load->view($this->path_template.'/aside');
         endif;

@@ -6,45 +6,25 @@
                 <div class="col-lg-4 col-sm-12">
                     <div class="footer-widget">
                         <!-- Brand -->
-                        <a href="#" class="footer-brand text-white">
+                        <a href="<?=base_url()?>" class="footer-brand text-white">
                             <img
                                 style="width: 170px"
                                 src="<?=base_url('assets/frontend/img/logotipos/logo-h-light.png')?>"
                                 alt="Logotipo Avanti Tecnologia"
                                 title="Logotipo Avanti" />
                         </a>
-                        <p>Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>Lorem ipsum dolor amet</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 ml-lg-auto col-sm-12">
                     <div class="footer-widget">
-                        <h3>Account</h3>
+                        <h3>Links Úteis</h3>
                         <!-- Links -->
                         <ul class="footer-links ">
                             <li>
-                                <a href="#">
-                                    Terms and conditions
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Privacy policy
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Affiliate services
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Help and support
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Frequently Asked Question
+                                <a target="_blank" href="https://usuario.gerencianet.com.br/segunda-via">
+                                    Área do Cliente
                                 </a>
                             </li>
                         </ul>
@@ -54,33 +34,27 @@
 
                 <div class="col-lg-2 col-sm-6">
                     <div class="footer-widget">
-                        <h3>About</h3>
+                        <h3>Navegação</h3>
                         <!-- Links -->
                         <ul class="footer-links ">
                             <li>
-                                <a href="#">
-                                    Services
+                                <a href="<?=base_url()?>">
+                                    Home
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    About Us
+                                <a href="<?=base_url('sistema-comercial')?>">
+                                    Institucional
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    Pricing
+                                <a href="<?=base_url('certificado')?>">
+                                    Áreas de Atuação
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    Products Shop
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#">
-                                    Contact
+                                <a href="<?=base_url('contato')?>">
+                                    Contato
                                 </a>
                             </li>
                         </ul>
@@ -89,7 +63,7 @@
 
                 <div class="col-lg-2 col-sm-6">
                     <div class="footer-widget">
-                        <h3>Socials</h3>
+                        <h3>Redes Sociais</h3>
                         <!-- Links -->
                         <ul class="list-unstyled footer-links">
                             <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
@@ -112,7 +86,7 @@
                 <div class="col-lg-12">
                     <!-- Copyright -->
                     <p class="footer-copy ">
-                        &copy; Copyright <span class="current-year"><a href="https://themefisher.com/free-bootstrap-templates">Free Bootstrap Templates</a></span> All rights reserved.
+                        &copy; Desenvolvido por <span><a style="color: #fff"href="https://sixtec.com.br"><b>SIXTEC</b></a> 2019</span> 
                     </p>
                 </div>
             </div> <!-- / .row -->

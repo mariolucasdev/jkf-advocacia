@@ -12,27 +12,39 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="row justy-content-center">
 
-                        <?php foreach ($sobre as $s) : ?>
-                            <div class="col-lg-6 col-sm-6 col-md-6">
-                                <div class="text-center about-block">
-                                    <div class="process-block">
-                                        <img
-                                            src="<?=base_url('assets/frontend/img/about/'.$s->img)?>"
-                                            alt=""
-                                            class="img-fluid">
+                        <div class="col-lg-6 col-sm-6 col-md-6">
+                            <div class="text-center about-block">
+                                <div class="process-block">
+                                    <img
+                                        src="<?=base_url('assets/frontend/img/about/about-mission.jpg')?>"
+                                        alt=""
+                                        class="img-fluid">
 
-                                        <h3><?=$s->title?></h3>
-                                        <p><?=$s->description?></p>
-                                    </div>
+                                    <h3>Misão</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
                             </div>
-                        <?php endforeach ?>
+                        </div>
+                        
+                        <div class="col-lg-6 col-sm-6 col-md-6">
+                            <div class="text-center about-block">
+                                <div class="process-block">
+                                    <img
+                                        src="<?=base_url('assets/frontend/img/about/about-vision.jpg')?>"
+                                        alt=""
+                                        class="img-fluid">
+
+                                    <h3>Visão</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
 
                 <div class="col-lg-12 pt-6 col-md-12 text-center">
-                    <h2 class="section-title">DIFERENCIAIS DA AVANTI <div class="line"></div></h2>
+                    <h2 class="section-title">ÚLTIMAS NOTÍCIAS DO STJ <div class="line"></div></h2>
                 </div>
 
                 <div class="col-lg-12 pt-6 col-md-12">

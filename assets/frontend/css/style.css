@@ -123,7 +123,7 @@ h6 {
 .line {
     margin: auto;
     width: 50px;
-    border: 2px solid #006EB6;
+    border: 2px solid #411112;
 }
 .lead {
     font-size: 1.0625rem;
@@ -175,7 +175,7 @@ p {
 }
 
 a{
-    color: #006EB6;
+    color: #411112;
 }
 a:hover,a:focus{
     outline: none;
@@ -300,8 +300,8 @@ img {
 
 
 .bg-primary,.btn-primary,.btn-white:hover{
-    background:#006EB6!important;
-    border-color: #006EB6!important;
+    background:#411112!important;
+    border-color: #411112!important;
     color: #fff;
 }
 
@@ -454,7 +454,7 @@ img {
 .dropdown-item:hover {
     color: #fff;
     text-decoration: none;
-    background-color: #006EB6;
+    background-color: #411112;
 
 }
 .header-bar.fixed-header .main-navigation {
@@ -563,7 +563,7 @@ img {
 }
 
 .header-socials li a{
-    color: #006EB6;
+    color: #411112;
 }
 
 
@@ -582,7 +582,7 @@ img {
 
 .icon-block {
     margin-right: 20px;
-    color:#006EB6;
+    color:#411112;
     font-size: 40px;
     line-height: 20px;
     font-weight: 400;
@@ -648,7 +648,7 @@ img {
     position: absolute;
     content: "";
     top: -27px;
-    background-color: #006EB6;
+    background-color: #411112;
     opacity: .3;
     width: 80px;
     right: 70px;
@@ -668,7 +668,7 @@ img {
  SERVICE
 -----------------------*/
 h5.subtitle {
-    color: #006EB6;
+    color: #411112;
 	margin-bottom: 10px;
 	font-weight: 300;
 }
@@ -694,7 +694,7 @@ h5.subtitle {
     font-size: 25px;
     width: 50px;
     height: 50px;
-    background: #006EB6;
+    background: #411112;
     text-align: center;
     border-radius: 50%;
     padding-top: 5px;
@@ -786,7 +786,7 @@ h5.subtitle {
 }
 
 .web-service-block:hover i {
-    color: #006EB6;
+    color: #411112;
 }
 
 .web-service-block:hover h3 {
@@ -850,7 +850,7 @@ h5.subtitle {
     font-family: "FontAwesome";
     left: 0px;
     top: 5px;
-    color: #006EB6;
+    color: #411112;
 }
 
 .pricing-block .price-features li{
@@ -926,7 +926,7 @@ h5.subtitle {
 }
 
 .project-content-block h4 {
-    color: #006EB6;
+    color: #411112;
 }
 
 .project-content-block p {
@@ -1020,7 +1020,7 @@ SECTION TESTIMONIAL
 }
 
 .blog-content:hover a h3 {
-    color: #006EB6;
+    color: #411112;
 }
 
 
@@ -1094,7 +1094,7 @@ SECTION TESTIMONIAL
 }
 
 .current-year {
-    color: #006EB6 !important;
+    color: #411112 !important;
 }
 
 .footer-copy:before {
@@ -1119,7 +1119,7 @@ SECTION TESTIMONIAL
     right: 30px;
     bottom: 50px;
     z-index: 999;
-    background: #006EB6;
+    background: #411112;
     color: #fff!important;
     border-radius: 100%;
     opacity: 0;
@@ -1199,7 +1199,7 @@ ABOUT
     box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
 }
 #about .img-block img{
-    border: 5px solid #006EB6;
+    border: 5px solid #411112;
 }
 .pt-6{
     padding-top: 4.5rem;
@@ -1276,7 +1276,7 @@ PRICING
     position: absolute;
     left: 30px;
     top: -23px;
-    background: #006EB6;
+    background: #411112;
     color: #fff;
 }
 
@@ -1346,7 +1346,7 @@ PRICING
 ---------------------------*/
 
 .header-white{
-    background: #006EB6;
+    background: #411112;
     -webkit-box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
     box-shadow:0 7px 22px rgba(0, 0, 0, 0.08) ;
     border-radius: 0px;
@@ -1386,7 +1386,6 @@ PRICING
     margin-right: 20px;
 }
 
-
 .banner-content2{
     padding: 200px 0px;
 }
@@ -1407,6 +1406,41 @@ PAGE BANNER
 
 .page-banner-area{
     padding: 180px 0px;
+}
+.page-sistema{
+    position: relative;
+    padding: 180px 0px;
+    background: url("../img/banner/clientes.png")fixed 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size:cover ;
+}
+.page-certificado{
+    position: relative;
+    padding: 180px 0px;
+    background: url("../img/banner/3.jpg")fixed 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size:cover ;
+}
+.page-tef{
+    position: relative;
+    padding: 180px 0px;
+    background: url("../img/banner/2.jpg")fixed 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size:cover ;
+}
+.page-clientes{
+    position: relative;
+    padding: 180px 0px;
+    background: url("../img/banner/clientes.png")fixed 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size:cover ;
+}
+.page-blog{
+    position: relative;
+    padding: 180px 0px;
+    background: url("../img/banner/blog.jpg")fixed 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size:cover ;
 }
 .page-contact{
     position: relative;
@@ -1488,11 +1522,11 @@ CONTACT PAGE
     font-size: 40px;
     margin-bottom: 20px;
     display: block;
-    color: #006EB6;
+    color: #411112;
 }
 
 .form-control:focus,.form-control:hover{
-    border-color: #006EB6;
+    border-color: #411112;
     box-shadow: none;
 }
 

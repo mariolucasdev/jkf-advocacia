@@ -9,12 +9,12 @@
                    <div class="banner-content text-center text-lg-left">
                         <!-- Heading -->
                         <h1 class="display-4 mb-4 ">
-                            Avanti Tecnologia<br>Soluções em Informática
+                            JKF Advocacia
                         </h1>
 
                         <!-- Subheading -->
                         <p class="lead mb-5">
-                            Soluções em automação comercial, certificado digital e equipamentos de informática.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
 
                         <!-- Button -->
@@ -27,9 +27,19 @@
                 </div>
                 
                 <div class="col-lg-4 ">
+
+                    <?php if($this->session->sucesso): ?>
+                        <div class="alert alert-success"><?=$this->session->sucesso?></div>
+                    <?php elseif($this->session->erro): ?>
+                        <div class="alert alert-danger"><?=$this->session->erro?></div>
+                    <?php endif ?>
+
                     <div class="banner-contact-form bg-white">
-                        <form method="post" action="<?=base_url('contato/enviar')?>">
+                        <form method="post" action="<?=base_url('contato/enviar_email')?>">
                             <div class="form-group">
+
+                                <input type="hidden" name="local" value="<?=current_url()?>">
+
                                 <input type="text" name="nome" class="form-control" placeholder="Seu Nome">
                             </div>
                             <div class="form-group">
@@ -41,7 +51,7 @@
                             <div class="form-group">
                                 <textarea name="mensagem" cols="30" rows="4" class="form-control" placeholder="Mensagem"></textarea>
                             </div>
-                            <a href="#" class="btn btn-dark btn-block btn-circled">Enviar</a>
+                            <button type="submit" class="btn btn-primary text-white btn-block">Enviar</button>
                         </form>
                     </div>
                 </div>

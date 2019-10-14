@@ -9,6 +9,7 @@ class Produtos extends CI_Controller {
         $this->load->model('produtos_model');
         $this->data['categories'] = $this->categorias_model->buscar();
         $this->template = new Template('templates', 'produtos/');
+        $this->alert    = new Alert();
     }
     
 	public function index()
@@ -38,7 +39,15 @@ class Produtos extends CI_Controller {
             
             $this->data['product'] = $this->produtos_model->buscar(['id_product'=>$this->uri->segment(3)])[0];
             $this->template->load($this->data, ['single-banner','single']);
+
+            if($this->input->post()):
+                $data_orcamento = $this->input->post();
+                if($this->produtos_model->orcamento($data_orcamento)):
+                    $msg = 'Orçamento solicitado com sucesso, entraremos em contato em breve. Obrigado pelo contato';
+                    $redirect = 'produtos/visualizar/'.$this->uri->segment(3);
+                    $this->alert->set('sucesso', $msg, $redirect);
+                endif;
+            endif;
         endif;
     }
-    
 }

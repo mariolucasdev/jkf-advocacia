@@ -1,4 +1,4 @@
- <section class="page-banner-area page-about">
+ <section class="page-banner-area page-tef">
         <div class="overlay"></div>
         <!-- Content -->
         <div class="container">

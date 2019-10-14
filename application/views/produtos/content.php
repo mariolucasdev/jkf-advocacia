@@ -4,6 +4,7 @@
             <div class="col-md-3 hidden-xs hidden-sm">
                 <h3 class="btn btn-primary btn-block">CATEGORIAS</h3>
                 <ul class="list-group list-group-flush">
+                        <a class="list-group-item" href="<?=base_url('produtos')?>">Todos</a>
                     <?php foreach($categories as $c):?>
                         <a class="list-group-item" href="<?=base_url('produtos?category='.$c->id_category)?>"><?=$c->category_name?></a>
                     <?php endforeach ?>

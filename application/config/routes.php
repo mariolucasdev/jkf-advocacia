@@ -56,9 +56,16 @@ $route['solucoes/sistema-comercial'] = 'home/sistema';
 $route['solucoes/certificado-digital'] = 'home/certificado';
 $route['solucoes/tef'] = 'home/tef';
 
+$route['blog'] = 'blog';
+
+$route['manage'] = 'manage';
+$route['manage/blog/post/editar/(:num)'] = 'manage/editarPost/$1';
+
 $route['produtos'] = 'produtos';
 $route['produtos/(:num)'] = 'home/produtos/$1';
 $route['produtos/categoria/(:num)'] = 'home/categorias/$1';
+
+
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

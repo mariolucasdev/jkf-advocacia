@@ -12,7 +12,7 @@ class Categorias_model extends CI_Model {
     {
         $this->db->where($where);
 
-        $query = $this->db->get('category');
+        $query = $this->db->get('products_categories');
         return $query->result();
     }
 

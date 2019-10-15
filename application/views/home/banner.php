@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row  align-items-center justify-content-center">
                 <div class="col-md-12 col-lg-8">
-                   <div class="banner-content text-center text-lg-left">
+                   <div class="banner-content text-center pt-8">
                         <!-- Heading -->
                         <h1 class="display-4 mb-4 ">
                             JKF Advocacia
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-4 ">
+                <!-- <div class="col-lg-4 ">
 
                     <?php if($this->session->sucesso): ?>
                         <div class="alert alert-success"><?=$this->session->sucesso?></div>
@@ -54,7 +54,7 @@
                             <button type="submit" class="btn btn-primary text-white btn-block">Enviar</button>
                         </form>
                     </div>
-                </div>
+                </div> -->
             </div> <!-- / .row -->
         </div> <!-- / .container -->
     </section>
